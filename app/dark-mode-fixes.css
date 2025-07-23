@@ -1,0 +1,69 @@
+/* Dark mode text color fixes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Make sure paragraph text is visible in dark mode */
+  .dark p {
+    color: #f3f4f6;
+  }
+
+  /* Ensure headings are visible in dark mode */
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    color: #ffffff; /* text-white */
+  }
+
+  /* Fix specific gray text to be lighter in dark mode */
+  .dark .text-gray-700,
+  .dark .text-gray-600,
+  .dark .text-gray-500 {
+    color: #d1d5db; /* Equivalent to text-gray-300 */
+  }
+
+  /* Fix text on white/light backgrounds in dark mode */
+  .dark .bg-white .text-gray-700,
+  .dark .bg-white .text-gray-600,
+  .dark .bg-white .text-gray-500,
+  .dark .bg-gray-100 .text-gray-700,
+  .dark .bg-gray-100 .text-gray-600,
+  .dark .bg-gray-100 .text-gray-500,
+  .dark .bg-gray-50 .text-gray-700,
+  .dark .bg-gray-50 .text-gray-600,
+  .dark .bg-gray-50 .text-gray-500 {
+    color: #111827 !important; /* Equivalent to text-gray-900 for better contrast on white */
+  }
+
+  /* Fix light backgrounds in dark mode */
+  .dark .bg-white,
+  .dark .bg-gray-50 {
+    background-color: #f3f4f6 !important; /* gray-100 */
+    border-color: #d1d5db !important; /* gray-300 */
+  }
+
+  /* Make form labels and text visible in dark mode */
+  .dark label,
+  .dark .form-text {
+    color: #e5e7eb; /* Equivalent to text-gray-200 */
+  }
+
+  /* Add contrast to input fields in dark mode */
+  .dark input,
+  .dark textarea,
+  .dark select {
+    background-color: #1f2937; /* bg-gray-800 */
+    border-color: #374151; /* border-gray-700 */
+    color: #ffffff; /* text-white */
+  }
+
+  /* Make placeholder text visible but subtle */
+  .dark input::placeholder,
+  .dark textarea::placeholder {
+    color: #9ca3af; /* Equivalent to text-gray-400 */
+  }
+}

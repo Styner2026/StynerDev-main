@@ -1,0 +1,13 @@
+.skillBar {
+  background-color: #ff6347;
+  height: 0.625rem; /* equals h-2.5 */
+  border-radius: 9999px; /* equals rounded-full */
+  transition-property: all;
+  transition-duration: 1500ms;
+  transition-timing-function: ease-out;
+  width: 0%;
+}
+
+.skillBarAnimated {
+  width: var(--skill-percentage, 0%);
+}

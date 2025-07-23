@@ -1,0 +1,11 @@
+.skillBar {
+  background-color: #ff6347;
+  height: 0.625rem; /* h-2.5 */
+  border-radius: 9999px; /* rounded-full */
+  width: 0;
+  transition: width 1.5s ease-out;
+}
+
+.skillBarVisible {
+  /* The width will be set directly in JavaScript */
+}

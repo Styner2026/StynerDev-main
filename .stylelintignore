@@ -1,0 +1,6 @@
+# Ignore files with Tailwind directives
+**/*.css
+# If you want to lint some CSS files but not those with Tailwind, use a more specific pattern:
+# app/dark-mode-fixes.css
+# **/tailwind.css
+# **/globals.css
