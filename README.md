@@ -1,6 +1,6 @@
 # StynerDev - Professional Portfolio & Services
 
-![StynerDev Logo](public/logo.png)
+![StynerDev](https://pub-d0ca23724b3941f0980d6ccac4aa18f2.r2.dev/StynerDev-Thumbnail.png)
 
 ## 👋 About Me
 
