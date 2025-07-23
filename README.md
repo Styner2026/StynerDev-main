@@ -94,9 +94,9 @@ I bring a global perspective, having grown up in Suriname and built my career fr
 ## 📫 Get in Touch
 
 - [Email](mailto:contact@styner.dev)
-- [Website](https://styner.dev)
-- [LinkedIn](https://www.linkedin.com/in/stynerdev)
-- [Twitter](https://twitter.com/stynerdev)
+- [Website](https://www.styner.dev/)
+- [LinkedIn](https://www.linkedin.com/in/styner-stiner/)
+- [Twitter](https://x.com/StynerDev)
 
 ## 🔧 Services
 
