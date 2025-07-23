@@ -100,7 +100,7 @@ I bring a global perspective, having grown up in Suriname and built my career fr
 
 ## 🔧 Services
 
-I offer a range of services from full-stack development to strategic technology consulting. Visit my [services page](https://styner.dev/services) to learn more or [contact me](https://styner.dev/contact) directly to discuss your project.
+I offer a range of services from full-stack development to strategic technology consulting. Visit my [services page](https://www.styner.dev/services) to learn more or [contact me](https://www.styner.dev/contact) directly to discuss your project.
 
 ---
 
