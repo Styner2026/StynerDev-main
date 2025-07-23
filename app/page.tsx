@@ -678,6 +678,7 @@ export default function Home() {
               date: "OCT 15, 2023",
               author: "STYNER.DEV",
               image: "https://pub-d0ca23724b3941f0980d6ccac4aa18f2.r2.dev/homepage-robot.png",
+              url: "https://trading-bots-main.vercel.app/",
             },
             {
               title: "ICP/DFINITY Blockchain",
@@ -747,7 +748,7 @@ export default function Home() {
                   </div>
                   <div className="mt-4 md:mt-0">
                     {service.url ? (
-                      <a href={service.url} target="_blank" rel="noopener noreferrer">
+                      <a href={service.url} target="_blank" rel="noopener noreferrer" title={`Visit ${service.title}`}>
                         <div className="overflow-hidden rounded-md w-full md:w-40 h-40 bg-gray-100">
                           <Image
                             src={service.image || "/placeholder.svg"}
